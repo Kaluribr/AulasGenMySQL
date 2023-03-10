@@ -49,7 +49,7 @@ CREATE TABLE IF NOT EXISTS `db_bem_me_quer`.`tb_produtos` (
   `id` BIGINT NOT NULL,
   `nome` VARCHAR(255) NOT NULL,
   `cor` VARCHAR(255) NOT NULL,
-  `valor` VARCHAR(255) NOT NULL,
+  `valor` DECIMAL(6,2) NOT NULL,
   `foto` VARCHAR(255) NULL,
   `descricao` VARCHAR(255) NOT NULL,
   `tb_categorias_id` BIGINT NULL,
